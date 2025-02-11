@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
 
 import os
-# from langchain_community.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
